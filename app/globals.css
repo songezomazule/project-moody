@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.styleMoods {
+  box-shadow: 3px 3px 1px 1px #c5bac0;
+}
+
+.styleMoods:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 1px 1px #ed85c5;
+}
+
+.textGradientStrongRed {
+  background: -webkit-linear-gradient(
+    #f12a31,
+    #c136f4
+  ); /* Gradient from a deep red to a vivid red */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease-in-out;
+}
+.translate-x-full {
+  transform: translateX(100%);
+}
+.-translate-x-full {
+  transform: translateX(-100%);
+}
+.button-form {
+  width: 100%;
+  background-color: #e789c3;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+}
+
+.button-form:hover {
+  background-color: #ea6ab9;
+}
+
